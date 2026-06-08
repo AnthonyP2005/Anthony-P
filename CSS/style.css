@@ -263,6 +263,11 @@ header{
 /* Formulario ocupa la segunda columna */
 .contact-form{
     flex: 1;
+    width: 100%;
+}
+
+.contact-form form{
+    width: 100%;
 }
 
 /* Organización vertical del formulario */
@@ -275,6 +280,8 @@ header{
 /* Inputs y textarea estilizados */
 .contact-form input,
 .contact-form textarea{
+    width: 100%;
+    max-width: 600px; /* ajusta este valor si quieres más ancho */
     padding: 16px;
     border: none;
     border-radius: 10px;
