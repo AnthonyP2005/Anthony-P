@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace externo al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fuente Montserrat desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Portafolio Personal</title>
+</head>
+<body>
+
+    <!-- Encabezado principal con logo y menú de navegación -->
+    <header>
+        <div class="container header-content">
+
+            <!-- Logo representado con un cuadro -->
+            <div class="logo">
+                <img src="IMG/logotipo.png" alt="logotipo"
+                width="60"
+                height="60">
+            </div>
+
+            <!-- Menú de navegación horizontal -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Sección principal Hero con presentación personal -->
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+
+                <!-- Columna izquierda con texto principal -->
+                <div class="hero-text">
+                    <h1>Hola, soy Anthony Pantoja</h1>
+
+                    <h2>Multimedia y Producción Audiovisual</h2>
+
+                    <p>
+                        Soy estudiante de la carrera de Multimedia de la universidad UPEC, actualmente cursando el tercer semestre
+                        los invito a ver mis proyectos y trabajos, y espero que les llamen la atención 
+                    </p>
+
+                    <!-- Botón principal de llamada a la acción -->
+                    <a href="#proyectos" class="btn">
+                        Ver proyectos
+                    </a>
+                </div>
+
+                <!-- Columna derecha con imagen de perfil -->
+                <div class="hero-image">
+                    <img 
+                        src="IMG/WhatsApp Image 2026-06-04 at 7.44.25 AM.jpeg"
+                        alt="Foto de perfil"
+                    >
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección de proyectos destacados -->
+        <section class="projects" id="proyectos">
+            <div class="container">
+
+                <h2 class="section-title">Mis Proyectos</h2>
+
+                <!-- Contenedor Flexbox para organizar las tarjetas -->
+                <div class="projects-grid">
+
+                    <!-- Tarjeta individual de proyecto -->
+                    <article class="project-card">
+
+                        <img 
+                            src="IMG/FOTOGRAFIAS .jpeg" 
+                            alt="Proyecto 1"
+                        width="300"
+                        height="500">
+
+                        <div class="project-info">
+                            <h3>fotografía</h3>
+
+                            <p>
+                                La fotografía es mi forma de capturar emociones, detalles y momentos que muchas veces pasan desapercibidos. A través de cada imagen busco transmitir creatividad, sensibilidad y una perspectiva única, combinando composición, iluminación y edición para crear fotografías con identidad propia. Este apartado reúne algunos de mis trabajos más representativos en diferentes estilos y proyectos audiovisuales.
+
+                            </p>
+                        </div>
+
+                    </article>
+
+                    <article class="project-card">
+
+                        <img 
+                            src="IMG/Kato Afiche final final.jpg" 
+                            alt="Proyecto 2"
+                        width="300"
+                        height="500">
+
+                        <div class="project-info">
+                            <h3>Diseño</h3>
+
+                            <p>
+                                El diseño es una herramienta que me permite transformar ideas en experiencias visuales creativas y funcionales. En cada proyecto busco combinar estética, comunicación y originalidad para desarrollar piezas que transmitan un mensaje claro e impactante. Este apartado reúne algunos de mis trabajos de diseño gráfico y multimedia, donde exploro el uso de color, tipografía, composición y creatividad para dar vida a cada propuesta.
+                            </p>
+                        </div>
+
+                    </article>
+
+                    <article class="project-card">
+
+                        <img
+                            src="IMG/Video Editing.jpg" 
+                            alt="Proyecto 3"
+                        width="300"
+                        height="500">
+
+                        <div class="project-info">
+                            <h3>video</h3>
+
+                            <p>
+                                El video es una forma de contar historias a través del movimiento, el sonido y la creatividad. En cada producción busco transmitir emociones, ideas y experiencias visuales que conecten con el espectador. Este apartado reúne algunos de mis proyectos audiovisuales, donde aplico grabación, edición y composición visual para crear contenidos dinámicos, atractivos y con identidad propia.
+
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de habilidades personales -->
+        <section class="skills" id="sobre-mi">
+            <div class="container">
+
+                <h2 class="section-title">Habilidades</h2>
+
+                <!-- Flexbox utilizado para distribuir habilidades -->
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <h3>Edición de Video</h3>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Diseño Gráfico</h3>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Fotografía</h3>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Producción Multimedia</h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección de contacto con información y formulario -->
+        <section class="contact" id="contacto">
+            <div class="container contact-content">
+
+                <!-- Columna izquierda con mensaje motivacional -->
+                <div class="contact-text">
+
+                    <h2>¿Tienes un proyecto en mente?</h2>
+
+                    <p>
+                        ¿Tienes algo en mente?
+Estoy listo para convertir tus ideas en proyectos creativos y visuales que transmitan tu esencia. Ya sea fotografía, diseño o producción audiovisual, trabajemos juntos para dar vida a nuevas propuestas con creatividad, estilo e innovación.
+
+                    </p>
+
+                </div>
+
+                <!-- Columna derecha con formulario -->
+                <div class="contact-form">
+
+                    <form>
+
+                        <!-- Campo para nombre -->
+                        <input 
+                            type="text" 
+                            placeholder="Nombre"
+                        >
+
+                        <!-- Campo para correo electrónico -->
+                        <input 
+                            type="email" 
+                            placeholder="Correo"
+                        >
+
+                        <!-- Área de texto para mensajes -->
+                        <textarea 
+                            placeholder="Mensaje"
+                        ></textarea>
+
+                        <!-- Botón de envío -->
+                        <button type="submit">
+                            Enviar mensaje
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página con copyright y redes sociales -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Anthony Pantoja. Todos los derechos reservados.
+            </p>
+
+            <!-- Redes sociales organizadas horizontalmente -->
+            <div class="social-links">
+
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Tiktok</a>
+                <a href="#">WhatsApp</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
